@@ -6,10 +6,12 @@ import { PostList } from "./components/Post";
 const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
 const App = () => (
-  <Admin dataProvider={dataProvider}>
-    <Resource name="users" list={UserList} />
-    <Resource name="posts" list={PostList} />
-  </Admin>
+  <div className="app">
+    <Admin dataProvider={dataProvider}>
+      <Resource name="users" list={UserList} />
+      <Resource name="posts" list={PostList} />
+    </Admin>
+  </div>
 );
 
 export default App;
