@@ -9,7 +9,7 @@ import SearchIcon from "@mui/icons-material/Search";
 const Topbar = () => {
   return (
     <Box display="flex" justifyContent="space-between" p={2}>
-      {/* Search bar */}
+      {/* 検索窓 */}
       <Box
         display="flex"
         backgroundColor="white"
@@ -21,7 +21,7 @@ const Topbar = () => {
         </IconButton>
       </Box>
 
-      {/* Icons */}
+      {/* 画面右上のアイコン */}
       <Box display="flex">
         <IconButton>
           <NotificationsOutlinedIcon />
