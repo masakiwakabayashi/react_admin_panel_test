@@ -1,9 +1,12 @@
 import { Box } from "@mui/system";
+import Header from "../../common/atoms/Header";
 
 const Dashboard = () => {
   return (
-    <Box p={3}>
-      ダッシュボード
+    <Box m="20px">
+      <Box display="flex" justifyContent="space-between" alignItems="center">
+        <Header title="ダッシュボード" subtitle="Welcome to React Admin" />
+      </Box>
     </Box>
   );
 }
