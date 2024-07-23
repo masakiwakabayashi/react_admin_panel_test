@@ -134,8 +134,22 @@ const Sidebar = () => {
                 setSelected={setSelected}
               />
               <Item
-                title="Geography Chart"
-                to="/geography"
+                title="Scatter Plot"
+                to="/scatter_plot"
+                icon={<MapOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Radar Chart"
+                to="/radar"
+                icon={<MapOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Funnel Chart"
+                to="/funnel"
                 icon={<MapOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}

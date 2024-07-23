@@ -835,6 +835,21 @@
     lodash "^4.17.21"
     prop-types "^15.7.2"
 
+"@nivo/funnel@^0.87.0":
+  version "0.87.0"
+  resolved "https://registry.yarnpkg.com/@nivo/funnel/-/funnel-0.87.0.tgz#e60a1be4094b49bd2f0a47da3d1a54de545fe9b2"
+  integrity sha512-mqc/Yj2IJAcg2A6BVav9Wein/bna+d7cFacycyWVNUGqpZ3oD6PB07wZLhUSXOeU1eChPmgLYPJ6zBQ5mRONPQ==
+  dependencies:
+    "@nivo/annotations" "0.87.0"
+    "@nivo/colors" "0.87.0"
+    "@nivo/core" "0.87.0"
+    "@nivo/tooltip" "0.87.0"
+    "@react-spring/web" "9.4.5 || ^9.7.2"
+    "@types/d3-scale" "^4.0.8"
+    "@types/d3-shape" "^3.1.6"
+    d3-scale "^4.0.2"
+    d3-shape "^3.2.0"
+
 "@nivo/legends@0.87.0":
   version "0.87.0"
   resolved "https://registry.yarnpkg.com/@nivo/legends/-/legends-0.87.0.tgz#3a45c5203f987b9ba3710133c431f4809432b955"
@@ -874,6 +889,21 @@
     "@types/d3-shape" "^3.1.6"
     d3-shape "^3.2.0"
 
+"@nivo/radar@^0.87.0":
+  version "0.87.0"
+  resolved "https://registry.yarnpkg.com/@nivo/radar/-/radar-0.87.0.tgz#d8e2a51c16ca8a7129c690b6f56821819dfb40d0"
+  integrity sha512-QMS3MPGBBKXtniRZ+dwk3Rnak1GnDCxCubA40QfsG8v/LIqUr5sd4oWzMe41+6Yr8Q8tkQaog/B68r+2sgMZvg==
+  dependencies:
+    "@nivo/colors" "0.87.0"
+    "@nivo/core" "0.87.0"
+    "@nivo/legends" "0.87.0"
+    "@nivo/tooltip" "0.87.0"
+    "@react-spring/web" "9.4.5 || ^9.7.2"
+    "@types/d3-scale" "^4.0.8"
+    "@types/d3-shape" "^3.1.6"
+    d3-scale "^4.0.2"
+    d3-shape "^3.2.0"
+
 "@nivo/scales@0.87.0":
   version "0.87.0"
   resolved "https://registry.yarnpkg.com/@nivo/scales/-/scales-0.87.0.tgz#03fa56f4ebced83eaca1c0a430870224146988fa"
@@ -885,6 +915,26 @@
     d3-scale "^4.0.2"
     d3-time "^1.0.11"
     d3-time-format "^3.0.0"
+    lodash "^4.17.21"
+
+"@nivo/scatterplot@^0.87.0":
+  version "0.87.0"
+  resolved "https://registry.yarnpkg.com/@nivo/scatterplot/-/scatterplot-0.87.0.tgz#2a478a6cd0fb0e03097aa3523b277a88d59c199c"
+  integrity sha512-QN3xJrTgMhUmCahGvw6WlkrAUP/B0FZmY+6cHyzlkO0Uf0UrshU01u24uyY7p8rJrtMIGiQqno3qHfawJeqRgA==
+  dependencies:
+    "@nivo/annotations" "0.87.0"
+    "@nivo/axes" "0.87.0"
+    "@nivo/colors" "0.87.0"
+    "@nivo/core" "0.87.0"
+    "@nivo/legends" "0.87.0"
+    "@nivo/scales" "0.87.0"
+    "@nivo/tooltip" "0.87.0"
+    "@nivo/voronoi" "0.87.0"
+    "@react-spring/web" "9.4.5 || ^9.7.2"
+    "@types/d3-scale" "^4.0.8"
+    "@types/d3-shape" "^3.1.6"
+    d3-scale "^4.0.2"
+    d3-shape "^3.2.0"
     lodash "^4.17.21"
 
 "@nivo/tooltip@0.87.0":
