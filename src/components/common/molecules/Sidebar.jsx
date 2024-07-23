@@ -15,6 +15,9 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import GrainOutlinedIcon from '@mui/icons-material/GrainOutlined';
+import PanoramaVerticalOutlinedIcon from '@mui/icons-material/PanoramaVerticalOutlined';
+import RadarOutlinedIcon from '@mui/icons-material/RadarOutlined';
 
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
@@ -90,20 +93,6 @@ const Sidebar = () => {
                 selected={selected}
                 setSelected={setSelected}
               />
-              <Item
-                title="Contacts Information"
-                to="/contacts"
-                icon={<ContactsOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
-              />
-              <Item
-                title="Invoices Balances"
-                to="/invoices"
-                icon={<ReceiptOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
-              />
 
               <Typography
                 variant="h6"
@@ -136,21 +125,21 @@ const Sidebar = () => {
               <Item
                 title="Scatter Plot"
                 to="/scatter_plot"
-                icon={<MapOutlinedIcon />}
+                icon={<GrainOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />
               <Item
                 title="Radar Chart"
                 to="/radar"
-                icon={<MapOutlinedIcon />}
+                icon={<RadarOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />
               <Item
                 title="Funnel Chart"
                 to="/funnel"
-                icon={<MapOutlinedIcon />}
+                icon={<PanoramaVerticalOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />
