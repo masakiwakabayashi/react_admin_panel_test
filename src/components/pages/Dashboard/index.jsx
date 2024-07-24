@@ -1,5 +1,5 @@
 import { Box } from "@mui/system";
-import Header from "../../common/atoms/Header";
+import Header from "../../atoms/Header";
 
 const Dashboard = () => {
   return (

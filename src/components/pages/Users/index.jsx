@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
 import { DataGrid } from "@mui/x-data-grid";
-import Header from "../../common/atoms/Header";
+import Header from "../../atoms/Header";
 import { mockDataUsers } from "../../../data/mockData";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
