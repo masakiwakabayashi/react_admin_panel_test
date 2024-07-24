@@ -2,13 +2,13 @@ import { Routes, Route } from "react-router-dom";
 import Dashboard from "./components/pages/Dashboard";
 import Users from "./components/pages/Users";
 import BarChart from "./components/organisms/diagrams/BarChart";
-import PieChart from "./components/pages/PieChart";
-import LineChart from "./components/pages/LineChart";
-import ScatterPlot from "./components/pages/ScatterPlot";
-import Radar from "./components/pages/Radar";
+import PieChart from "./components/organisms/diagrams/PieChart";
+import LineChart from "./components/organisms/diagrams/LineChart";
+import ScatterPlot from "./components/organisms/diagrams/ScatterPlot";
+import Radar from "./components/organisms/diagrams/Radar";
 import Funnel from "./components/organisms/diagrams/Funnel";
-import Topbar from "./components/common/molecules/Topbar";
-import Sidebar from "./components/common/molecules/Sidebar";
+import Topbar from "./components/molecules/Topbar";
+import Sidebar from "./components/molecules/Sidebar";
 
 import Test from "./components/pages/Test";
 

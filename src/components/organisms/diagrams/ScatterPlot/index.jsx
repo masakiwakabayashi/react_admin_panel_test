@@ -1,5 +1,5 @@
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
-import { mockScatterPlotData as data } from "../../../data/mockData";
+import { mockScatterPlotData as data } from "../../../../data/mockData";
 
 const ScatterPlot = () => {
   return (
