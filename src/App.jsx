@@ -12,11 +12,16 @@ import Sidebar from "./components/molecules/Sidebar";
 
 import Test from "./components/pages/Test";
 
+import DateSelectComponent from "./components/molecules/DateComponent";
+import Header from "./components/atoms/Header";
+
 const App = () => (
   <div className="app">
     <Sidebar/>
     <main className="content">
       <Topbar/>
+      <Header title="ダッシュボード" subtitle="Welcome to React Admin" />
+      <DateSelectComponent />
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/users" element={<Users />} />

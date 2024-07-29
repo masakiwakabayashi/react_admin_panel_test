@@ -1,12 +1,14 @@
+import React, { useState } from "react";
 import { Box } from "@mui/system";
 import Header from "../../atoms/Header";
+import DateSelectComponent from "../../molecules/DateComponent";
+
+import BarChart from "../../organisms/diagrams/BarChart";
 
 const Dashboard = () => {
   return (
     <Box m="20px">
-      <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="ダッシュボード" subtitle="Welcome to React Admin" />
-      </Box>
+      <BarChart />
     </Box>
   );
 }
