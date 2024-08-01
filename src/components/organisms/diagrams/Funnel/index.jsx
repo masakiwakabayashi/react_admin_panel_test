@@ -1,5 +1,5 @@
 import { ResponsiveFunnel } from '@nivo/funnel';
-import { mockFunnelData as data } from "../../../data/mockData";
+import { mockFunnelData as data } from "../../../../data/mockData";
 
 const Funnel = () => {
   return (

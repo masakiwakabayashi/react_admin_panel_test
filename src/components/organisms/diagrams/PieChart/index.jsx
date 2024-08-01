@@ -1,5 +1,5 @@
 import { ResponsivePie } from "@nivo/pie";
-import { mockPieData as data } from "../../../data/mockData";
+import { mockPieData as data } from "../../../../data/mockData";
 
 
 const PieChart = () => {

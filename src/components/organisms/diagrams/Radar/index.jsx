@@ -1,5 +1,5 @@
 import { ResponsiveRadar } from '@nivo/radar';
-import { mockRadarData as data } from "../../../data/mockData";
+import { mockRadarData as data } from "../../../../data/mockData";
 
 const Radar = () => {
   return (
