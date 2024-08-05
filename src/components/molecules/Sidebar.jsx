@@ -39,9 +39,22 @@ const Sidebar = () => {
   const [selected, setSelected] = useState("Dashboard");
 
   return (
-    <div>
-      <Box>
-        <ProSidebar collapsed={isCollapsed}>
+    <div
+    >
+      <Box
+        height="100%"
+        sx={{
+          backgroundColor: "#F9F9F9",
+          borderRight: "1px solid #E0E0E0",
+        }}
+      >
+        <ProSidebar
+          collapsed={isCollapsed}
+          sx={{
+            backgroundColor: "#F9F9F9",
+            height: "100%",
+          }}
+        >
           <Menu iconShape="square">
             <MenuItem
               onClick={() => setIsCollapsed(!isCollapsed)}

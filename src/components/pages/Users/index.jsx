@@ -38,6 +38,11 @@ const Users = () => {
       <Header title="ユーザ一覧" subtitle="Welcome to React Admin" />
       <Box>
         <DataGrid
+          initialState={{
+            pagination: {
+              paginationModel: { pageSize: 25, page: 0 },
+            },
+          }}
           rows={mockDataUsers}
           columns={columns}
           checkboxSelection
