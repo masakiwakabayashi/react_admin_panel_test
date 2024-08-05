@@ -46,6 +46,9 @@ const Sidebar = () => {
         sx={{
           backgroundColor: "#F9F9F9",
           borderRight: "1px solid #E0E0E0",
+          position : "fixed",
+          top: 0,
+          left: 0,
         }}
       >
         <ProSidebar

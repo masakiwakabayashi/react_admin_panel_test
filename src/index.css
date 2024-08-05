@@ -18,6 +18,10 @@ body {
   position: relative;
 }
 
+.content {
+  margin-left: 250px;
+}
+
 /* ::-webkit-scrollbar {
   width: 10px;
 } */
