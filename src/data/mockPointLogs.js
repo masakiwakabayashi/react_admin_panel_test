@@ -13,4 +13,15 @@
 // created_at
 // updated_at
 
+export const mockPointLogs = [
+  {
+    id: 1,
+    user_id: 18274,
+  },
+
+
+
+
+];
+
 
