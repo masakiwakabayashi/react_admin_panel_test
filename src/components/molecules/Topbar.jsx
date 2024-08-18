@@ -15,10 +15,10 @@ const Topbar = () => {
         backgroundColor="white"
         borderRadius="3px"
       >
-        <InputBase sx={{ ml: 2, flex: 1 }} placeholder="検索"/>
+        {/* <InputBase sx={{ ml: 2, flex: 1 }} placeholder="検索"/>
         <IconButton type="button" sx={{ p: 1 }}>
           <SearchIcon />
-        </IconButton>
+        </IconButton> */}
       </Box>
 
       {/* 画面右上のアイコン */}
