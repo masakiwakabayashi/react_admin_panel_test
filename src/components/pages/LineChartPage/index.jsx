@@ -1,15 +1,15 @@
 import { Box } from "@mui/system";
-import BarChart from "../../organisms/diagrams/BarChart";
+import LineChart from "../../organisms/diagrams/LineChart";
 import TestTable from "../../organisms/tables/Test";
 import Header from "../../atoms/Header";
 import DateSelectComponent from "../../molecules/DateComponent";
 
-const Test = () => {
+const LineChartPage = () => {
   return (
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Test Page" />
+      <Header title="Line Chart" subtitle="This is Line Chart Page" />
       <DateSelectComponent />
       <Box
         display="flex"
@@ -19,12 +19,12 @@ const Test = () => {
         width="90%"
         margin="auto"
       >
-        <BarChart />
+        <LineChart />
       </Box>
       <TestTable />
     </Box>
   );
 }
 
-export default Test;
+export default LineChartPage;
 

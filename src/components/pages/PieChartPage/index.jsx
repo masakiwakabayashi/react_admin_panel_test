@@ -1,15 +1,15 @@
 import { Box } from "@mui/system";
-import BarChart from "../../organisms/diagrams/BarChart";
+import PieChart from "../../organisms/diagrams/PieChart";
 import TestTable from "../../organisms/tables/Test";
 import Header from "../../atoms/Header";
 import DateSelectComponent from "../../molecules/DateComponent";
 
-const Test = () => {
+const PieChartPage = () => {
   return (
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Test Page" />
+      <Header title="Pie Chart" subtitle="This is Pie Chart Page" />
       <DateSelectComponent />
       <Box
         display="flex"
@@ -19,12 +19,12 @@ const Test = () => {
         width="90%"
         margin="auto"
       >
-        <BarChart />
+        <PieChart />
       </Box>
       <TestTable />
     </Box>
   );
 }
 
-export default Test;
+export default PieChartPage;
 

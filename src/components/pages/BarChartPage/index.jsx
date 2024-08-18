@@ -4,12 +4,12 @@ import TestTable from "../../organisms/tables/Test";
 import Header from "../../atoms/Header";
 import DateSelectComponent from "../../molecules/DateComponent";
 
-const Test = () => {
+const BarChartPage = () => {
   return (
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Test Page" />
+      <Header title="Bar Chart" subtitle="This is Bar Chart Page" />
       <DateSelectComponent />
       <Box
         display="flex"
@@ -26,5 +26,4 @@ const Test = () => {
   );
 }
 
-export default Test;
-
+export default BarChartPage;
