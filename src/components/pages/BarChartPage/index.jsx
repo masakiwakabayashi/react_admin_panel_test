@@ -9,7 +9,7 @@ const BarChartPage = () => {
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Bar Chart Page" />
+      <Header title="Bar Chart" subtitle="This is Bar Chart Page" />
       <DateSelectComponent />
       <Box
         display="flex"

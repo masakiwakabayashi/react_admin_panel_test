@@ -9,7 +9,7 @@ const PieChartPage = () => {
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Pie Chart Page" />
+      <Header title="Pie Chart" subtitle="This is Pie Chart Page" />
       <DateSelectComponent />
       <Box
         display="flex"

@@ -9,7 +9,7 @@ const RadarChartPage = () => {
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Radar Chart Page" />
+      <Header title="Radar Chart" subtitle="This is Radar Chart Page" />
       <DateSelectComponent />
       <Box
         display="flex"

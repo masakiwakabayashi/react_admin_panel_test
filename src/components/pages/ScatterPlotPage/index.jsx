@@ -9,7 +9,7 @@ const ScatterPlotPage = () => {
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Scatter Plot Page" />
+      <Header title="Scatter Plot" subtitle="This is Scatter Plot Page" />
       <DateSelectComponent />
       <Box
         display="flex"

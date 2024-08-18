@@ -9,7 +9,7 @@ const FunnelChartPage = () => {
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Funnel Page" />
+      <Header title="Funnel" subtitle="This is Funnel Page" />
       <DateSelectComponent />
       <Box
         display="flex"

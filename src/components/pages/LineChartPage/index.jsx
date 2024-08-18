@@ -9,7 +9,7 @@ const LineChartPage = () => {
     <Box
       height="100%"
     >
-      <Header title="Test Page" subtitle="This is Line Chart Page" />
+      <Header title="Line Chart" subtitle="This is Line Chart Page" />
       <DateSelectComponent />
       <Box
         display="flex"

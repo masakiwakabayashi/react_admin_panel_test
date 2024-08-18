@@ -35,7 +35,7 @@ const Users = () => {
 
   return (
     <Box>
-      <Header title="ユーザ一覧" subtitle="Users Page" />
+      <Header title="Users" subtitle="Users Page" />
       <Box m="20px">
         <Box>
           <DataGrid
