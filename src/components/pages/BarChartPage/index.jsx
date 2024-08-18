@@ -1,9 +1,24 @@
+import { Box } from "@mui/system";
+import BarChart from "../../organisms/diagrams/BarChart";
+import TestTable from "../../organisms/tables/Test";
 
 const BarChartPage = () => {
   return (
-    <div>
-      Enter
-    </div>
+    <Box
+      height="100%"
+    >
+      <Box
+        display="flex"
+        justifyContent="center"
+        maxHeight="600px"
+        height="100%"
+        width="90%"
+        margin="auto"
+      >
+        <BarChart />
+      </Box>
+      <TestTable />
+    </Box>
   );
 }
 

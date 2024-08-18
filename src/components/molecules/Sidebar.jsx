@@ -167,21 +167,21 @@ const Sidebar = () => {
               <Item
                 title="Test Page"
                 to="/test"
-                icon={<PersonOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
-              />
-              <Item
-                title="Calendar"
-                to="/calendar"
                 icon={<CalendarTodayOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />
               <Item
-                title="FAQ Page"
-                to="/faq"
-                icon={<HelpOutlineOutlinedIcon />}
+                title="Test Page"
+                to="/test"
+                icon={<CalendarTodayOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Test Page"
+                to="/test"
+                icon={<CalendarTodayOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />
